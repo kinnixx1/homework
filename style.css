@@ -1,0 +1,12 @@
+body {
+    color:black;
+}
+h1 {
+    color:red;
+}
+.special-title {
+    color:blue;
+}
+#very-special-title {
+    color:brown;
+}
