@@ -47,3 +47,20 @@ li a:hover {
     width: 100%;
     color: rgb(0, 0, 0);
 }
+thead,
+tfoot {
+    background-color: aqua;
+    color:aliceblue;
+}
+tbody {
+    background-color: aliceblue;
+}
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 45px;
+}
+th,td {
+    height: 80px;
+    width: 200px;
+}
