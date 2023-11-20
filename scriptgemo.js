@@ -38,4 +38,46 @@ function HelloWorld(message) {
 function multiply(a, b=1) {
     console.log(a*b);
 }
-multiply(4, 2)
+multiply(4)
+
+function multiply(a, b=1) {
+    return a*b;
+}
+result=multiply(5);
+console.log(result);
+
+let pet={
+    name:"Lulu",
+    age:2
+}
+console.log(pet.name);
+//hy
+let pet={
+    name:"Lulu",
+    age:2
+}
+console.log[pet.name];
+//ty
+let pet={
+    name:"Lulu",
+    age:2
+}
+console.log[pet.age];
+//oy
+let pet={
+    name:"Lulu",
+    age:3
+}
+console.log(pet.age);
+pet.sound="Mau mau"
+delete pet.sound
+
+let pet={
+    name:"Lulu",
+    age:2,
+    sound:"Mau mau",
+    makeSound(){
+        console.log(this.sound)
+    }
+}
+pet.makeSound()  
