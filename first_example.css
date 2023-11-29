@@ -1,0 +1,36 @@
+thead,
+tfoot {
+    background-color: aqua;
+    color:aliceblue;
+}
+tbody {
+    background-color: aliceblue;
+}
+#grad1 {
+    height: 200px;
+    background-image: linear-gradient( to bottom right, rgb(17, 18, 104),#00fff2);
+}
+#grad2 {
+    height: 200px;
+    background: linear-gradient(322deg, rgba(2,0,36,1) 0%, rgba(9,121,103,1) 44%, rgba(255,0,185,1) 72%);
+}
+#button1 {
+    background: linear-gradient(322deg, rgba(2,0,36,1) 0%, rgba(9,121,103,1) 44%, rgba(255,0,185,1) 72%);
+    margin: 10px;
+    padding: 15px, 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 10px
+    border: none;
+    display: block;   
+}
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 45px;
+}
+th,td {
+    height: 80px;
+    width: 200px;
+}
