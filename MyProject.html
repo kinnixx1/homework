@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Змейка</title>
+    <style>
+        canvas {
+            display: block;
+            margin: 0 auto;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <p>Счет: <span id="score">0</span></p>
+    <label for="difficulty">Уровень сложности:</label>
+    <select id="difficulty">
+        <option value="4">Легко</option>
+        <option value="8" selected>Средне</option>
+        <option value="12">Сложно</option>
+    </select>
+    <canvas id="game" width="320" height="320"></canvas>
+    <script src="game.js"></script>
+</body>
+</html>
