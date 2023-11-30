@@ -1,0 +1,9 @@
+h1{
+    color: red;
+}
+div,h2{
+    color: green;
+}
+body{
+    background-color: rgb(235, 235, 135);
+}
